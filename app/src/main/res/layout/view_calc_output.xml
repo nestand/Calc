@@ -15,5 +15,16 @@
         android:padding="16dp"
         android:textColor="@color/colorText"
         android:textSize="@dimen/textSizeCalculationEquation"
-        tools:text="7*7">
+        tools:text="7*7"/>
+    <TextView
+        android:id="@+id/calculator_input_outcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@null"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:textColor="@color/colorTextLight"
+        android:textSize="@dimen/textSizeCalculationOutcome"
+        tools:text="49"/>
 </LinearLayout>
